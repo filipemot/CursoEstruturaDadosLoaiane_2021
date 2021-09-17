@@ -1,5 +1,7 @@
 package com.filipemota.estrturadados.vetor;
 
+import java.util.Arrays;
+
 public class Vetor {
 
     private String[] elementos;
@@ -10,28 +12,6 @@ public class Vetor {
         this.tamanho = 0;
     }
 
-    /** Versão percorrendo todos os elementos do array
-     public void adiciona(String elemento) {
-     for (int i=0; i<this.elementos.length; i++){
-     if(this.elementos[i] == null){
-     this.elementos[i] = elemento;
-     break;
-     }
-     }
-     }*/
-
-    /**
-     * Versão que dá uam exceção quando o Vetor já está cheio
-     * public void adiciona(String elemento) throws Exception {
-     * if(this.tamanho < this.elementos.length) {
-     * this.elementos[this.tamanho] = elemento;
-     * this.tamanho++;
-     * } else {
-     * throw new Exception("Vetor já está cheio, não é possível adicionar mais elementos!");
-     * }
-     * }
-     */
-
     public Boolean adiciona(String elemento) {
         if (this.tamanho < this.elementos.length) {
             this.elementos[this.tamanho] = elemento;
@@ -40,5 +20,27 @@ public class Vetor {
         }
 
         return false;
+    }
+
+    public int tamanho() {
+        return this.tamanho;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder str =  new StringBuilder();
+        str.append("[");
+
+        for(int i=0; i <this.tamanho-1;i++){
+            str.append(this.elementos[i]);
+            str.append(", ");
+        }
+
+        if(this.tamanho > 0){
+            str.append(this.elementos[this.tamanho -1]);
+        }
+
+        str.append("]");
+        return str.toString();
     }
 }
