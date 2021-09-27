@@ -1,4 +1,4 @@
-# Curso de Estrutura de Dados - Loiane Groner - 2021
+# Curso de Estrutura de Dados em Java - Loiane Groner - 2021
 
 **Conteúdos Abordados**
 
