@@ -7,4 +7,5 @@
  - Aula 3 - Estrutura de Dados e Algoritmos com Java #03: Vetores e Arrays: Adicionar elemento no final do vetor
  - Aula 4 - Estrutura de Dados e Algoritmos com Java #04: Vetores e Arrays: tamanho e imprimir elementos
  - Aula 5 - Estrutura de Dados e Algoritmos com Java #05: Vetores e Arrays: Obter elemento de uma posição
+ - Aula 6 - Estrutura de Dados e Algoritmos com Java #06: Vetores e Arrays: Verificar se elemento existe
 
