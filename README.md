@@ -9,4 +9,5 @@
  - Aula 5 - Estrutura de Dados e Algoritmos com Java #05: Vetores e Arrays: Obter elemento de uma posição
  - Aula 6 - Estrutura de Dados e Algoritmos com Java #06: Vetores e Arrays: Verificar se elemento existe
  - Aula 7 - Adicionar elemento em qualquer posição
+ - Aula 8 - Aumentar capacidade do vetor
 
