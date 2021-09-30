@@ -38,6 +38,28 @@ public class Vetor {
         this.tamanho++;
     }
 
+    public void remove(int posicao) {
+        if(!(posicao >= 0 && posicao <tamanho)){
+            throw new IllegalArgumentException("Posição Inválida");
+        }
+
+        for(int i=posicao; i<this.tamanho-1; i++){
+            this.elementos[i] = this.elementos[i+1];
+        }
+        this.tamanho--;
+    }
+
+    public void remove(String elemento) {
+        int posicao = busca(elemento);
+
+        if(posicao > -1) {
+            for (int i = posicao; i < this.tamanho - 1; i++) {
+                this.elementos[i] = this.elementos[i + 1];
+            }
+            this.tamanho--;
+        }
+    }
+
     public int tamanho() {
         return this.tamanho;
     }
