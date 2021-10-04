@@ -1,16 +1,16 @@
 package com.filipemota.estrturadados.vetor;
 
-public class VetorObjetos {
+public class VetorObjetos<T> {
 
-    private Object[] elementos;
+    private T[] elementos;
     private int tamanho;
 
     public VetorObjetos(int capacidade) {
-        this.elementos = new Object[capacidade];
+        this.elementos = (T[]) new Object[capacidade];
         this.tamanho = 0;
     }
 
-    public Boolean adiciona(Object elemento) {
+    public Boolean adiciona(T elemento) {
         this.aumentaCapacidade();
         if (this.tamanho < this.elementos.length) {
             this.elementos[this.tamanho] = elemento;
@@ -21,7 +21,7 @@ public class VetorObjetos {
         return false;
     }
 
-    public void adiciona(int posicao, Object elemento) {
+    public void adiciona(int posicao, T elemento) {
         if(!(posicao >= 0 && posicao <tamanho)){
             throw new IllegalArgumentException("Posição Inválida");
         }
@@ -72,7 +72,7 @@ public class VetorObjetos {
 
     private void aumentaCapacidade(){
         if(this.tamanho == this.elementos.length){
-            Object[] elementoNovos = new Object[this.elementos.length * 2];
+            T[] elementoNovos = (T[]) new Object[this.elementos.length * 2];
 
             for(int i=0; i<this.elementos.length;i++){
                 elementoNovos[i] = this.elementos[i];
