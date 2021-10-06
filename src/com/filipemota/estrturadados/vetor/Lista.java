@@ -1,11 +1,11 @@
 package com.filipemota.estrturadados.vetor;
 
-public class VetorObjetos<T> {
+public class Lista<T> {
 
     private T[] elementos;
     private int tamanho;
 
-    public VetorObjetos(int capacidade) {
+    public Lista(int capacidade) {
         this.elementos = (T[]) new Object[capacidade];
         this.tamanho = 0;
     }
@@ -47,7 +47,7 @@ public class VetorObjetos<T> {
         this.tamanho--;
     }
 
-    public void remove(Object elemento) {
+    public void remove(T elemento) {
         int posicao = busca(elemento);
 
         if(posicao > -1) {
@@ -70,6 +70,10 @@ public class VetorObjetos<T> {
         return this.elementos[posicao];
     }
 
+    public boolean contem(T elemento){
+        return busca(elemento) > -1;
+    }
+
     private void aumentaCapacidade(){
         if(this.tamanho == this.elementos.length){
             T[] elementoNovos = (T[]) new Object[this.elementos.length * 2];
@@ -82,7 +86,7 @@ public class VetorObjetos<T> {
         }
     }
 
-    public int busca(Object elemento){
+    public int busca(T elemento){
         for(int i=0; i<this.tamanho;i++){
             if(this.elementos[i].equals(elemento)){
                 return i;

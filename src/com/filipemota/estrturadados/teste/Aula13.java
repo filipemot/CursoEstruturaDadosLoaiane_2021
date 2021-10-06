@@ -2,7 +2,7 @@ package com.filipemota.estrturadados.teste;
 
 import com.filipemota.estrturadados.vetor.Lista;
 
-public class Aula11 {
+public class Aula13 {
 
     public static void main(String[] args){
         Lista vetor = new Lista(3);
@@ -12,7 +12,9 @@ public class Aula11 {
             vetor.adiciona(4);
             vetor.adiciona(5);
 
-            System.out.println(vetor);
+            System.out.println(vetor.contem(4));
+            System.out.println(vetor.contem(8));
+
 
         } catch (Exception e) {
             e.printStackTrace();

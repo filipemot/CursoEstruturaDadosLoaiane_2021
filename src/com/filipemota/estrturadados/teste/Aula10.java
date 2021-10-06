@@ -1,12 +1,11 @@
 package com.filipemota.estrturadados.teste;
 
-import com.filipemota.estrturadados.vetor.Vetor;
-import com.filipemota.estrturadados.vetor.VetorObjetos;
+import com.filipemota.estrturadados.vetor.Lista;
 
 public class Aula10 {
 
     public static void main(String[] args){
-        VetorObjetos vetor = new VetorObjetos(3);
+        Lista vetor = new Lista(3);
         try {
 
             Contato contato = new Contato("Nome", "Endereco", "email");
