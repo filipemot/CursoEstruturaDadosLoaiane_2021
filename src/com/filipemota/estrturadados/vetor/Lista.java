@@ -51,10 +51,7 @@ public class Lista<T> {
         int posicao = busca(elemento);
 
         if(posicao > -1) {
-            for (int i = posicao; i < this.tamanho - 1; i++) {
-                this.elementos[i] = this.elementos[i + 1];
-            }
-            this.tamanho--;
+            this.remove(posicao);
         }
     }
 
