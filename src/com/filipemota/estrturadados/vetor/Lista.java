@@ -21,6 +21,9 @@ public class Lista<T> {
         return false;
     }
 
+    public T obtem(int posicao) {
+        return this.busca(posicao);
+    }
     public void adiciona(int posicao, T elemento) {
         if(!(posicao >= 0 && posicao <tamanho)){
             throw new IllegalArgumentException("Posição Inválida");
@@ -69,7 +72,7 @@ public class Lista<T> {
         return this.tamanho;
     }
 
-    public Object busca(int posicao){
+    public T busca(int posicao){
         if(!(posicao >= 0 && posicao <tamanho)){
             throw new IllegalArgumentException("Posição Inválida");
         }
