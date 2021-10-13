@@ -122,4 +122,11 @@ public class Lista<T> {
         str.append("]");
         return str.toString();
     }
+
+    public void limpar() {
+        for(int i=0; i< this.tamanho;i++){
+            this.elementos[i] = null;
+        }
+        this.tamanho = 0;
+    }
 }

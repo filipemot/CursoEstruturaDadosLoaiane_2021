@@ -18,3 +18,4 @@
  - Aula 14 - Exer 02 método último índice
  - Aula 15 - Exer 03 método remove elemento
  - Aula 16 - Exer 04 método obtém (get)
+ - Aula 17 - Exer 05 método remover todos elementos (clear)
