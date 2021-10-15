@@ -2,6 +2,8 @@
 
 **Conteúdos Abordados**
 
+**Vetor, Arrays, Listas**
+ 
  - Aula 1 - Estrutura de Dados e Algoritmos com Java #01: Introdução
  - Aula 2 - Estrutura de Dados e Algoritmos com Java #02: Vetores e Arrays: Introdução
  - Aula 3 - Estrutura de Dados e Algoritmos com Java #03: Vetores e Arrays: Adicionar elemento no final do vetor
@@ -19,3 +21,4 @@
  - Aula 15 - Exer 03 método remove elemento
  - Aula 16 - Exer 04 método obtém (get)
  - Aula 17 - Exer 05 método remover todos elementos (clear)
+ - Aula 18 - Exer 06 Contatos – Lista
