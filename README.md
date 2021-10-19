@@ -23,3 +23,4 @@
  - Aula 17 - Exer 05 método remover todos elementos (clear)
  - Aula 18 - Exer 06 Contatos – Lista
  - Aula 19 - Exer 07 Contatos – ArrayList
+ - Aula 20 - Pilhas: Introdução
