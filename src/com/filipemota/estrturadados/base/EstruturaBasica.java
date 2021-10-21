@@ -1,8 +1,8 @@
 package com.filipemota.estrturadados.base;
 
 public class EstruturaBasica<T> {
-    private T[] elementos;
-    private int tamanho;
+    protected T[] elementos;
+    protected int tamanho;
 
     public EstruturaBasica(int capacidade){
         elementos = (T[]) new Object[capacidade];
@@ -20,7 +20,7 @@ public class EstruturaBasica<T> {
         return false;
     }
 
-    protected void aumentaCapacidade(){
+    private void aumentaCapacidade(){
         if(this.tamanho == this.elementos.length){
             T[] elementoNovos = (T[]) new Object[this.elementos.length * 2];
 

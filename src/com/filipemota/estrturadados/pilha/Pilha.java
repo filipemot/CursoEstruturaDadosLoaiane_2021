@@ -11,4 +11,8 @@ public class Pilha<T> extends EstruturaBasica<T> {
     public Boolean adiciona(T elemento) {
         return super.adiciona(elemento);
     }
+
+    public void empilha(T elemento){
+        super.adiciona(elemento);
+    }
 }
