@@ -25,3 +25,4 @@
  - Aula 19 - Exer 07 Contatos – ArrayList
  - Aula 20 - Pilhas: Introdução
  - Aula 21 - Empilhar elemento (push)
+ - Aula 22 - Verificar se pilha está vazia

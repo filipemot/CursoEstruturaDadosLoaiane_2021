@@ -47,6 +47,10 @@ public class EstruturaBasica<T> {
         this.tamanho++;
     }
 
+    public boolean estaVazia(){
+        return tamanho == 0;
+    }
+
     public int tamanho(){
         return this.tamanho;
     }
