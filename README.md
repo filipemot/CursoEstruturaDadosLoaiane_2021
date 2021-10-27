@@ -27,3 +27,4 @@
  - Aula 21 - Empilhar elemento (push)
  - Aula 22 - Verificar se pilha está vazia
  - Aula 23 - Espiar/Verificar elemento do topo (peek)
+ - Aula 24 - Desempilhar elemento (pop)

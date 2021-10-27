@@ -23,4 +23,11 @@ public class Pilha<T> extends EstruturaBasica<T> {
 
         return elementos[tamanho-1];
     }
+
+    public T desempilha(){
+        if(this.estaVazia()){
+            return null;
+        }
+        return this.elementos[--tamanho];
+    }
 }
