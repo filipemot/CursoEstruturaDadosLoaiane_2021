@@ -4,6 +4,10 @@ import com.filipemota.estrturadados.base.EstruturaBasica;
 
 public class Pilha<T> extends EstruturaBasica<T> {
 
+    public Pilha() {
+        super(10);
+    }
+
     public Pilha(int capacidade) {
         super(capacidade);
     }
