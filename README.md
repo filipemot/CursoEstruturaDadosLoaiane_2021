@@ -31,3 +31,5 @@
  - Aula 25 - API Java: Stack
  - Aula 26 - Empilha e desempilha
  - Aula 27 - Pilhas par ou ímpar
+ - Aula 28 - Pilha de Livros
+ - Aula 29 - Stack de Livros
