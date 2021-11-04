@@ -1,5 +1,7 @@
 package com.filipemota.estrturadados.teste;
 
+import com.filipemota.estrturadados.teste.objetos.Contato;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

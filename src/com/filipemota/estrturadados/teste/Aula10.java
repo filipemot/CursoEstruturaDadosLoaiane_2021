@@ -1,5 +1,6 @@
 package com.filipemota.estrturadados.teste;
 
+import com.filipemota.estrturadados.teste.objetos.Contato;
 import com.filipemota.estrturadados.vetor.Lista;
 
 public class Aula10 {

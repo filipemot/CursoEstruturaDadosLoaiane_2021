@@ -1,4 +1,4 @@
-package com.filipemota.estrturadados.teste;
+package com.filipemota.estrturadados.teste.objetos;
 
 import java.util.Objects;
 

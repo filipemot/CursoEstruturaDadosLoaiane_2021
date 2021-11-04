@@ -1,8 +1,7 @@
 package com.filipemota.estrturadados.teste;
 
 import com.filipemota.estrturadados.pilha.Pilha;
-
-import java.util.Scanner;
+import com.filipemota.estrturadados.teste.objetos.Livro;
 
 public class Aula28 {
 

@@ -33,3 +33,4 @@
  - Aula 27 - Pilhas par ou ímpar
  - Aula 28 - Pilha de Livros
  - Aula 29 - Stack de Livros
+ - Aula 30 - Desafio do Palíndromo
