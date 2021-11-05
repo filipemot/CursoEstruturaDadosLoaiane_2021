@@ -34,3 +34,4 @@
  - Aula 28 - Pilha de Livros
  - Aula 29 - Stack de Livros
  - Aula 30 - Desafio do Palíndromo
+ - Aula 31 - Desafio dos símbolos balanceados
