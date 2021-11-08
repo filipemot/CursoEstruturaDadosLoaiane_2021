@@ -36,3 +36,4 @@
  - Aula 30 - Desafio do Palíndromo
  - Aula 31 - Desafio dos símbolos balanceados
  - Aula 32 - Desafio conversão decimal-binário
+ - Aula 33 - Desafio Torre de Hanoi
