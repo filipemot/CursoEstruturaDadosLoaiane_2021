@@ -38,3 +38,4 @@
  - Aula 32 - Desafio conversão decimal-binário
  - Aula 33 - Desafio Torre de Hanoi
  - Aula 34 - Filas: Introdução
+ - Aula 35 - Enfileirar (adicionar) elemento (enqueue)
