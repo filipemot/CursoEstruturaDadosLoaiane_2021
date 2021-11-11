@@ -15,4 +15,12 @@ public class Fila<T> extends EstruturaBasica<T> {
     public void enfileira(T elemento){
         super.adiciona(elemento);
     }
+
+    public T espiar(){
+        if(this.estaVazia()){
+            return null;
+        }
+
+        return this.elementos[0];
+    }
 }
