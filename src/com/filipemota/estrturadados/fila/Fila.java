@@ -23,4 +23,15 @@ public class Fila<T> extends EstruturaBasica<T> {
 
         return this.elementos[0];
     }
+
+    public T desenfileira(){
+        if(this.estaVazia()){
+            return null;
+        }
+
+        T elemento = this.elementos[0];
+        super.remove(0);
+
+        return elemento;
+    }
 }

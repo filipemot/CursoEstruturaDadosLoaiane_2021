@@ -40,3 +40,4 @@
  - Aula 34 - Filas: Introdução
  - Aula 35 - Enfileirar (adicionar) elemento (enqueue)
  - Aula 36 - Espiar/Verificar elemento início da fila (peek)
+ - Aula 37 - Desenfileirar (remover) elemento (dequeue)
