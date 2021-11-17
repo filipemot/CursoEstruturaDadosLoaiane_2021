@@ -11,7 +11,7 @@ public class Lista<T> extends EstruturaBasica<T> {
         super(capacidade);
     }
 
-    public Boolean adiciona(T elemento) {
+    public boolean adiciona(T elemento) {
         return super.adiciona(elemento);
     }
 
@@ -19,8 +19,8 @@ public class Lista<T> extends EstruturaBasica<T> {
         return this.busca(posicao);
     }
 
-    public void adiciona(int posicao, T elemento) {
-        super.adiciona(posicao, elemento);
+    public boolean adiciona(int posicao, T elemento) {
+        return super.adiciona(posicao, elemento);
     }
 
     public void remove(int posicao) {

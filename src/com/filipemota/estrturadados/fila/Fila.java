@@ -4,20 +4,26 @@ import com.filipemota.estrturadados.base.EstruturaBasica;
 
 public class Fila<T> extends EstruturaBasica<T> {
 
-    public Fila() {
-        super(10);
+    public Fila(){
+        super();
     }
 
-    public Fila(int capacidade) {
+    public Fila(int capacidade){
         super(capacidade);
     }
 
     public void enfileira(T elemento){
-        super.adiciona(elemento);
+        //this.elementos[this.tamanho] = elemento;
+        //this.tamanho++;
+
+        //this.elementos[this.tamanho++] = elemento;
+
+        this.adiciona(elemento);
     }
 
     public T espiar(){
-        if(this.estaVazia()){
+
+        if (this.estaVazia()){
             return null;
         }
 
@@ -25,13 +31,18 @@ public class Fila<T> extends EstruturaBasica<T> {
     }
 
     public T desenfileira(){
-        if(this.estaVazia()){
+
+        final int POS = 0;
+
+        if (this.estaVazia()){
             return null;
         }
 
-        T elemento = this.elementos[0];
-        super.remove(0);
+        T elementoASerRemovido = this.elementos[POS];
 
-        return elemento;
+        this.remove(POS);
+
+        return elementoASerRemovido;
+
     }
 }

@@ -12,7 +12,7 @@ public class Pilha<T> extends EstruturaBasica<T> {
         super(capacidade);
     }
 
-    public Boolean adiciona(T elemento) {
+    public boolean adiciona(T elemento) {
         return super.adiciona(elemento);
     }
 
