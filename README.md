@@ -41,3 +41,4 @@
  - Aula 35 - Enfileirar (adicionar) elemento (enqueue)
  - Aula 36 - Espiar/Verificar elemento início da fila (peek)
  - Aula 37 - Desenfileirar (remover) elemento (dequeue)
+ - Aula 38 - API Java: Queue
