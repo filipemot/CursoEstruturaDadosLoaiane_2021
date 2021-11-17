@@ -1,8 +1,8 @@
 package com.filipemota.estrturadados.vetor;
 
-import com.filipemota.estrturadados.base.EstruturaBasica;
+import com.filipemota.estrturadados.base.EstruturaEstatica;
 
-public class Lista<T> extends EstruturaBasica<T> {
+public class Lista<T> extends EstruturaEstatica<T> {
 
     private T[] elementos;
     private int tamanho;

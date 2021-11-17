@@ -1,8 +1,8 @@
 package com.filipemota.estrturadados.pilha;
 
-import com.filipemota.estrturadados.base.EstruturaBasica;
+import com.filipemota.estrturadados.base.EstruturaEstatica;
 
-public class Pilha<T> extends EstruturaBasica<T> {
+public class Pilha<T> extends EstruturaEstatica<T> {
 
     public Pilha() {
         super(10);

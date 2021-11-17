@@ -1,17 +1,17 @@
 package com.filipemota.estrturadados.base;
 
-public class EstruturaBasica<T> {
+public class EstruturaEstatica<T> {
 
     protected T[] elementos;
     protected int tamanho;
 
     @SuppressWarnings("unchecked")
-    public EstruturaBasica(int capacidade){
+    public EstruturaEstatica(int capacidade){
         this.elementos = (T[]) new Object[capacidade]; //solução do livro effective Java
         this.tamanho = 0;
     }
 
-    public EstruturaBasica(){
+    public EstruturaEstatica(){
         this(10);
     }
 
