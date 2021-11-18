@@ -42,4 +42,6 @@
  - Aula 36 - Espiar/Verificar elemento início da fila (peek)
  - Aula 37 - Desenfileirar (remover) elemento (dequeue)
  - Aula 38 - API Java: Queue
- - Aula 39 - API Java: PriorityQueue
+ - Aula 39 - Estrutura de Dados e Algoritmos com Java #24: Filas com Prioridade
+ - Aula 40 - API Java: PriorityQueue
+ - Aula 41 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 01 Impressão de Documentos
