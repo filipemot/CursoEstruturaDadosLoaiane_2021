@@ -46,3 +46,4 @@
  - Aula 40 - API Java: PriorityQueue
  - Aula 41 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 01 Impressão de Documentos
  - Aula 42 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 02 Fila de Atendimento
+ - Aula 43 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 03 Simulação de Pronto Socorro
