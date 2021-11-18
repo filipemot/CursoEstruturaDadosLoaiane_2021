@@ -45,3 +45,4 @@
  - Aula 39 - Estrutura de Dados e Algoritmos com Java #24: Filas com Prioridade
  - Aula 40 - API Java: PriorityQueue
  - Aula 41 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 01 Impressão de Documentos
+ - Aula 42 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 02 Fila de Atendimento
