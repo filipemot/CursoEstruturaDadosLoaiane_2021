@@ -49,3 +49,4 @@
  - Aula 43 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 03 Simulação de Pronto Socorro
  - Aula 44 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 04 Brincadeira Batata Quente
  - Aula 45 - Estrutura de Dados com Java | Lista Encadeada | Introdução
+ - Aula 46 - Estrutura de Dados com Java | Lista Encadeada | 02: Tamanho da Lista

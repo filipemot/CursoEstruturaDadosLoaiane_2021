@@ -3,6 +3,7 @@ package com.filipemota.estrturadados.lista;
 public class ListaEncadeada<T> {
 
     private No<T> inicio;
+    private int tamanho = 0;
 
     public void adiciona(T elemento){
         No<T> novo = new No<>(elemento);
@@ -15,6 +16,11 @@ public class ListaEncadeada<T> {
             }
             aux.setProximo(novo);
         }
+        this.tamanho++;
+    }
+
+    public int getTamanho(){
+        return this.tamanho;
     }
 
     @Override
