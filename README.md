@@ -51,3 +51,4 @@
  - Aula 45 - Estrutura de Dados com Java | Lista Encadeada | Introdução
  - Aula 46 - Estrutura de Dados com Java | Lista Encadeada | 02: Tamanho da Lista
  - Aula 47 - Estrutura de Dados com Java | Lista Encadeada | 03: Inserir no Final
+ - Aula 48 - Estrutura de Dados com Java | Lista Encadeada | 04: Inserir no Final
