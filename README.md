@@ -50,3 +50,4 @@
  - Aula 44 - Estrutura de Dados e Algoritmos com Java: Filas: Exer 04 Brincadeira Batata Quente
  - Aula 45 - Estrutura de Dados com Java | Lista Encadeada | Introdução
  - Aula 46 - Estrutura de Dados com Java | Lista Encadeada | 02: Tamanho da Lista
+ - Aula 47 - Estrutura de Dados com Java | Lista Encadeada | 03: Inserir no Final

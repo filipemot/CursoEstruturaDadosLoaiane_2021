@@ -3,19 +3,17 @@ package com.filipemota.estrturadados.lista;
 public class ListaEncadeada<T> {
 
     private No<T> inicio;
+    private No<T> ultimo;
     private int tamanho = 0;
 
     public void adiciona(T elemento){
-        No<T> novo = new No<>(elemento);
-        if(this.inicio == null){
-            this.inicio = novo;
-        }else{
-            No<T> aux = inicio;
-            while(aux.getProximo() != null){
-                aux = aux.getProximo();
-            }
-            aux.setProximo(novo);
+        No<T> celula = new No<>(elemento);
+        if(this.tamanho == 0) {
+            this.inicio = celula;
+        } else {
+            this.ultimo.setProximo(celula);
         }
+        this.ultimo = celula;
         this.tamanho++;
     }
 
@@ -25,8 +23,9 @@ public class ListaEncadeada<T> {
 
     @Override
     public String toString() {
-        return "ListaEncadeada{" +
-                "inicio=" + inicio +
-                '}';
+        StringBuilder builder = new StringBuilder();
+        builder.append("Lista encadeada [inicio=").append(inicio).append("]");
+
+        return builder.toString();
     }
 }
